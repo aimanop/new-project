@@ -14,7 +14,9 @@ body{
     background-color: yellow;
     width: 200px;
     height: 100px;
-    
+    cursor: pointer;
+
+
     
 
 
@@ -32,6 +34,7 @@ body{
     width: 200px;
     height: 100px;
     margin-top: 100px;
+    cursor: pointer;
 
     
 
@@ -68,9 +71,11 @@ h1{
    
 }
 
-button:hover{
-    background-color: black;
-    color:green;
+button:hover {
+  
+    color: lightgreen;
+    border: none;
+
    
 }
     
@@ -78,8 +83,7 @@ button:hover{
 
 
 #aa {
-    background-color: lightgrey;
-    margin-top: 50px;
+    background-color:lightblue;
     width: 200px;
     height: 100px;
     margin-left: 100px;
@@ -101,7 +105,7 @@ button:hover{
 }
 
 #ab{
-    background-color: lightgrey;
+    background-color: lightblue;
     margin-top: 50px;
     width: 200px;
     height: 100px;
@@ -118,4 +122,17 @@ button:hover{
     text-align: center;
     margin-top: 100px;
 
+    
+}
+ 
+button {
+   cursor: pointer;
+}
+
+#aa:hover{
+    background-color:black;
+}
+
+#ab:hover{ 
+    background-color:black;
 }
